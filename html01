@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Vlitki">
+    <meta name="description" content="practice bejbee">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fronted Cheat Sheet </title>
+    </head>
+    <body>
+
+    <h1> Hellooooo </h1>
+    <p>hellooooo  we are learningggg</p>
+    <div>
+        this <span>here</span> is inline block.
+
+    <h1>Helloooo 2</h1>
+    <h2>Basic HTML principles</h2>
+    <pre>
+        !DOCTYPE
+        html 
+        head 
+        body 
+    </pre>
+
+    </div>
+    </body>
+</html>
