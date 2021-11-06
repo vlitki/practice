@@ -8,47 +8,51 @@
     <title> Fronted Cheat Sheet </title>
     </head>
     <body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background-color:rgb(254, 249, 232);">
-          
-    <nav  class="menu">
+    <nav class="menu" id="Back">
         <ul>
             <li><a href="https://www.w3schools.com/html/default.asp">W3schools</a></li>
             <li><a href="https://developer.mozilla.org/en-US/docs/Web/Tutorials#html_tutorials">Mozilla HTML tutorial</a></li>
             <li><a href="https://validator.w3.org/nu/#textarea">Markup Validation Service</a></li>
-            <li><a href="https://github.com/vlitki" target="blank">my git hub</a> </li>
-            <li><a href="https://en.wikipedia.org/wiki/Tree#/media/File:Ash_Tree_-_geograph.org.uk_-_590710.jpg" target="blank">tree</a> 
-            </ul>
-    <h2><a name="Back"> HTML page</h2>
+            <li><a href="https://github.com/vlitki" target="_blank">My git hub</a> </li>
+            <li><a href="css.html" target="_blank"> <img src="./images/palette.logo.png" alt="palette.logo" height="75" width="75" ></a> 
+        </ul>
     </nav>
+    <h2>Table of content</h2>
         <ol>
-            <li> <a href="#html anatomy">jump to html anatomy</a> </li>
-            <li> <a href="#inline">inline vs block</a> </li>
-            <li> <a href="#DIV">div </a> </li>
+            <li> <a href="#html.anatomy">HTML Anatomy</a> </li>
+            <li> <a href="#inline">Inline vs Block</a> </li>
+            <li> <a href="#DIV">Div vs Span </a> </li>
+            <li> <a href="#Entities">Entities practice </a> </li>
+            <li> <a href="#playlist">Playlist </a> </li>
         </ol>
     
 
-    <h1> Brief notes on HTML </h1>
-    <ul>
-        <li><em><strong>Hypertext</strong></em> <br> Hypertext is simply a non-linear way of presenting information.
+    <h2> Brief notes on HTML </h2>
+    <dl>
+        <dt><em><strong>Hypertext</strong></em> </dt> 
+        <dd>Hypertext is simply a non-linear way of presenting information.
            <br> Rather than reading or learning about things in the order that an author, or editor,
-           <br>or publisher sets out for us, readers of hypertext may  create their  own meaning out the material.</li>
-        <li> <strong>semantic </strong> meaning <br>  uses tags to define elements within a document. 
-            <br>For example tag &lt;p&gt; represents the paragraph </li>
-        <li><strong>not a programming language</strong> <br>There is no conditional branching. HTML is not used for executing commands or operations</li>
-    </ul>
+           <br>or publisher sets out for us, readers of hypertext may  create their  own meaning out the material.</dd>
+        <dt> <strong>semantic </strong> meaning <dt> 
+        <dd> uses tags to define elements within a document. 
+            <br>For example tag &lt;p&gt; represents the paragraph </dd>
+        <dt><strong>not a programming language</strong> </dt>
+        <dd>There is no conditional branching. HTML is not used for executing commands or operations</dd>
+    </dl>
     <br>
     
-    <h2><a name="html anatomy"></a>HTML Anatomy</h2>
-        <img  alt="HTML anatomy" src="http://alolsen.net/blogs/webdesign/wp-content/uploads/2014/08/Screen-Shot-2014-08-12-at-2.08.43-AM.png">
+    <h2 id="html.anatomy">HTML Anatomy</h2>
+        <img  alt="HTML.anatomy" src="http://alolsen.net/blogs/webdesign/wp-content/uploads/2014/08/Screen-Shot-2014-08-12-at-2.08.43-AM.png">
 
     <h2>HTML structure and writing rules</h2>
     <img alt="HTML structure and rules" src="https://stuyhsdesign.files.wordpress.com/2015/09/basic-structure.png">
 
-    <h3><a name="inline"></a>Inline vs block elements</h3>
+    <h3 id="inline">Inline vs block elements</h3>
     <img src="https://pbs.twimg.com/media/EdOQGgTXgAE5QdB.jpg:large" data-deferred="1" alt="🔎Julia Evans🔍 sur Twitter : &amp;quot;inline vs block… &amp;quot;"  class="n3VNCb" id="imi" data-w="1588" data-h="1005" style="height: 486.045px; width: 768px; margin: 0px;" data-iml="1831.4000000357628" data-atf="true">
     <div>
          this <span style="color: blueviolet">here</span> is inline block.
     </div>
-    <h4><a name="DIV"></a>DIV vs Span</h4>
+    <h4 id="DIV">DIV vs Span</h4>
     <p><span style="color:purple"><em>The &lt;div&gt; element</em></span> is often used as a container for other HTML elements.
         <br>When used together with CSS, the &lt;div&gt; element can be used to style blocks of content. </p>
     <br>
@@ -56,7 +60,7 @@
         <br> When used together with CSS, the &lt;span&gt; element can be used to style parts of the text.
     </p>
 
-    <h4>Entities practice</h4>
+    <h4 id="Entities">Entities practice</h4>
     <pre>
         &lt;!DOCTYPE&gt;
         &lt;html&gt;
@@ -80,23 +84,23 @@
 
     <h4>HTML description list</h4>
     <dl>
-    <dt>HTML</dd>
+    <dt>HTML</dt>
     <dd> the standard markup language for documents designed to be displayed in a web browser.</dd>
     <dt>Metadata</dt>
     <dd> a set of data that describes and gives information about other data. </dd>
     </dl>
 
     <h4>IMG element practice relative path</h4>
-    <img src="./images/html slika.png"  alt="logo HTML-a" width="250" height="250">
+    <img src="./images/html.slika.png"  alt="logo HTML-a" width="250" height="250">
     <img src="./images/css3.logo.png"  alt="logo CSS3" width="250" height="250">
     <img src="./images/JS.logo.png"  alt="logo JS" width="250" height="230">
     <h4>IMG element practice absolute path</h4>
 
     <h4> GIF</h4>
-    <img src="images/pusheen cat.gif"  alt="cat gif">
+    <img src="images/pusheen.cat.gif"  alt="cat.gif">
 
     <h4> an example of svg </h4>
-    <svg width="250" height="250" viewbox=" 0 0 300 300" fill=" none" xmins="http://https://www.w3.org/2000/svg">
+    <svg width="250" height="250" viewbox=" 0 0 300 300" fill=" none" >
       <circle cx="150" cy="150" fill="green" r="100" stroke="brown" stroke-width="6px"></circle>
     </svg>
 
@@ -112,6 +116,10 @@
             fill="purple" stroke="black" stroke-width="2" />
     </svg>
 
+    <h4 id="playlist"> Practice : Insert a playlist</h4>
+    <iframe src="https://open.spotify.com/embed/playlist/7re2iUWspM0mGOTuQ5WlWY?utm_source=generator" width="400" height="275" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    <br>
+    <br>
     <a href="#Back">Jump back </a>
 
     </body>
