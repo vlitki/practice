@@ -382,6 +382,71 @@ checked>
 <br>
 <br>
 <button type="submit">Sign me up!</button>
+</form>
+
+<h3>Food order form</h3>
+<form action="">
+<input type="text" list="food.recommendation.list">
+<button>Submit order</button>
+<datalist id="food.recommendation.list">
+    <option value="Classic Hamburger">100% mljevena svinjetina, sir,salata,umak,pecivo</option>
+    <option>Pizza</option>
+    <option>Čokolino</option>
+    <option>Ramen</option>
+    <option>Muesle</option>
+    <option>Shnicle</option>
+    <option>Wrap</option>
+</datalist>
+</form>
+
+<h3>Extended food form</h3>
+<form action="">
+<label for="full.name">Full name</label>
+<input type="text" name="full.name" id="full.name" required>
+<br>
+<br>
+<label for="email">Enter your email:</label>
+<input type="email" id="email" required placeholder="Email">
+<br>
+<br>
+<label for="address">Address</label>
+<input type="text" name="name" id="address" required>
+
+<p><label> Delivery time: <input type=time min="11:00" max="21:00" step="900"></label></p>
+<p>Contactless payment</p>
+<label> <input type ="radio" name="answer" value="yes">yes</label>
+<label> <input type ="radio" name="answer" value="no">no</label>
+<p>Order food</p>
+<input type="text" list="food.recommendation.list">
+<datalist id="food.recommendation.list">
+    <option value="Classic pizza">ham, cheese, mushrooms,tomato souce,mozarella</option>
+    <option>Hamburger</option>
+    <option>Čokolino</option>
+    <option>Ramen</option>
+    <option>Muesle</option>
+    <option>Shnicle</option>
+    <option>Wrap</option>
+</datalist>
+<p>Order extras</p>
+<input type="checkbox" id="mushrooms" name="extras"
+checked>
+<label for="mushrooms">Mushrooms</label>
+<input type="checkbox" id="enchillada" name="extras">
+<label for="enchillada">Enchillada</label>
+<input type="checkbox" id="chilli" name="extras">
+<label for="chilli">Chilli</label>
+<input type="checkbox" id="ketchup" name="extras">
+<label for="ketchup">Ketchup</label>
+<br>
+<br>
+<p>Contactless payment</p>
+<label> <input type ="radio" name="answer" value="yes">yes</label>
+<label> <input type ="radio" name="answer" value="no">no</label>
+<p>2. Comment </p>
+    <textarea id="comment" name="comment"
+    maxlength="250">Write here...
+   </textarea>
+<p><button type="button" name="getSelection">Submit</button></p>
 
 </form>
 
