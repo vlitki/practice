@@ -1,0 +1,21 @@
+table {
+    color: rgb(39, 71, 60);
+    border: solid;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FEF7EC
+}
+
+html {
+    font-size: 16px;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin-right:auto;
+
+}
